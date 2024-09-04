@@ -1,0 +1,139 @@
+.container {
+    font-size: 25px;
+    text-align: center;
+    font-size: 25px;
+   }
+   
+   .avatar{
+     
+     vertical-align: left;
+     width: 300px;
+     height: 300px;
+     border-radius: 50%;
+     border: 5px solid #66ff00;
+   }
+   
+   h1 {
+    text-align: center;
+    text-align: top;
+    text-transform: uppercase;
+    color:#66ff00;
+  }
+  /* Three image containers2 (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and text color to the body */
+body {
+    background-color: #050303;
+    color: #0a0404;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #3a2c2c;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Style the navigation menu */
+nav ul {
+    background-color: #444;
+    list-style-type: none;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the main content sections */
+main {
+    margin: 100px;
+    font-size: 25px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+section {
+  border: 5px solid #66ff00;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(116, 14, 14, 0.2);
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+
